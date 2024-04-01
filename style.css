@@ -1,0 +1,61 @@
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.img-container {
+    border-radius: 100px; 
+
+    padding: 30px; 
+}
+.img-container {
+    background: url(bg2.avif) no-repeat;
+    background-size: cover;
+    padding: 10px; 
+    margin: 20px;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+.img-text {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px; 
+}
+
+.img-text h4 {
+    margin-bottom: 5px; 
+}
+
+
+.row {
+    text-align: center;
+}
+
+#col1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 10px;
+    border-color: aqua;
+    border-radius: 50%;
+}
+
+.img-container {
+    margin: 20px;
+}
+
+.custom-col {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
